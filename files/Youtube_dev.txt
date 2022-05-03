@@ -1,0 +1,17 @@
+Youtube dev google account credentials
+email: ytbdev10@gmail.com
+password: internshipProject@ytb-dev#ggl
+
+Youtube dev github account credentials
+email: ytbdev10@gmail.com
+password: internshipProject@ytb-dev#gtb
+
+Youtube dev heroku account credentials
+email: ytbdev10@gmail.com
+password: internshipProject@ytb-dev#h10
+
+neo4j aura db for the Youtube dev account credentials
+-> Connect with google. Account : ytbdev10@gmail.com
+db_username : neo4j
+db_password : UJtiMLWQXyF-7PthUPwLq4vR5Ibj80gOcmdX68jqy6c
+connection URI : neo4j+s://90de437f.databases.neo4j.io
