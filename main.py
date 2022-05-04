@@ -13,7 +13,7 @@ vd_fmt = VideoFormat()
 keys_list = [os.getenv("API_KEY"), os.getenv("API_KEY1"), os.getenv(
     "API_KEY2"), os.getenv("API_KEY3")]
 
-list_domains = ["cybersecurity", "deep learning"]
+list_domains = ["getting started with Coding","getting started with algorithm", "Data Structure", "getting started with Data Structure"]
 
 for key in keys_list:
     i = 0
@@ -21,16 +21,15 @@ for key in keys_list:
         GAC = GoogleAPIConnection()
         txt = NextPageTokenWrite()
         for domain in list_domains:
-            i = i + 1
             print(f"{domain} \n\n")
             videos = vds.fetch_videos(domain, GAC.connection(key))
             print(len(videos))
             print('\n\n')
             print(f" \n\n\{domain} \n\n")
             txt.write_last_domain(domain)
-            
-            if i >= 100:
-                list_domains.remove(domain)
+            if len(videos) > 0: i = i + 1
         break
     except googleapiclient.errors.HttpError:
         pass
+    finally:
+        del list_domains[0:i+1]

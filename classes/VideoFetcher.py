@@ -32,7 +32,7 @@ class VideoFetcher:
                 maxResults=50,
                 pageToken=next_page_token,
                 relevanceLanguage = "en",
-                type="video"
+                type="video",
             )
             response_search = request_search.execute()
 
