@@ -28,7 +28,7 @@ class VideoFetcher:
             # get the videos id
             request_search = youtube.search().list(
                 part="snippet",
-                q=title,
+                q="getting start to advanced in " + title,
                 maxResults=50,
                 pageToken=next_page_token,
                 relevanceLanguage = "en",

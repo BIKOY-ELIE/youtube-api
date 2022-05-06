@@ -13,7 +13,7 @@ vd_fmt = VideoFormat()
 keys_list = [os.getenv("API_KEY"), os.getenv("API_KEY1"), os.getenv(
     "API_KEY2"), os.getenv("API_KEY3")]
 
-list_domains = ["getting started with Coding","getting started with algorithm", "Data Structure", "getting started with Data Structure"]
+list_domains = ["bootstrap", "material ui", "SCSS", "SDL C", "Sass", "Java EE", "game development", "py2neo", "nextjs", "getting started in Nodejs express js", "nodejs adonis", "Ruby on rails", "angular js", "vanilla js", "javafx", "javaswing", "turtle python", "getting started in xml", "devsecops", "fxml", "flask python", ".NET framework", "Unity", "qt", "QML", "Gsap javacript" "cypher neo4j", "PostgreSql", "AuraDB", "datascience", "artificiel Intelligence", "machine learning", "ethical hacking", "cybersecurity", "deep learning", "flask python", ".NET framework", "Unity", "qt", "QML", "Gsap javacript", "frontend", "backend","introduction in programming", "react", "vuejs", "CSS", "HTML", "JavaScript", "Java", "Python", "PHP", "ruby", "C++", "C", "C#", "Kotlin", "dart", "Scala", "GO", "getting started in FrontEnd", "getting started in BackEnd", "MySQL", "SQLite", "neo4j", "firebase", "Fast API", "HuggingFace", "Kubernetes", "Docker", "DevOPs", "SCRUM methodologie", "tailwind css", "web programming", "Mobile programming", "NoSQL database","Django python", "Pygame python", "Py2neo", "JavaFx", "NoSQL", "SQL", "Jquery", "nuxtjs"]
 
 for key in keys_list:
     i = 0
